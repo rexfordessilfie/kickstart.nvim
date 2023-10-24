@@ -7,7 +7,8 @@
     "javascript",
     "javascriptreact",
     "json",
-    "mdx"
+    "mdx",
+    "lua"
   ],
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
