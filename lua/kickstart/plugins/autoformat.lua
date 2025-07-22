@@ -2,6 +2,11 @@
 --
 -- Use your language server to automatically format your code on save.
 -- Adds additional commands as well to manage the behavior
+--
+
+if VSC_MODE then
+  return {}
+end
 
 return {
   'neovim/nvim-lspconfig',

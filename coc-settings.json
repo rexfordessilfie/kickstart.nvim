@@ -14,5 +14,7 @@
   "prettier.useTabs": false,
   "prettier.printWidth": 80,
   "prettier.bracketSpacing": true,
-  "prettier.jsxBracketSameLine": false
+  "prettier.jsxBracketSameLine": false,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--diff", "--quiet", "--fast"]
 }
